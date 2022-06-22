@@ -3,13 +3,13 @@ id: cluster
 title: Clusters
 ---
 
-Cluster allows you group (or clustering) the nodes in an isolated group.
+Cluster allows you to group/cluster the nodes in an isolated group.
 
 ## Basic
 
-Cluster represents a local cluster context.
+The Cluster class represents a local cluster context.
 
-You can create a cluster context with Cluster class. And you can also connect the nodes in a cluster to other nodes outside a cluster.
+You can create a cluster context with the Cluster class. Tou can also connect the nodes in a cluster to other nodes outside the cluster.
 
 ```python
 from diagrams import Cluster, Diagram
@@ -68,4 +68,4 @@ with Diagram("Event Processing", show=False):
 
 ![event processing diagram](/img/event_processing_diagram.png)
 
-> There is no depth limit of nesting. Feel free to create nested clusters as deep as you want.
+> There is no depth limit when nesting. Feel free to create nested clusters as deep as you want.
